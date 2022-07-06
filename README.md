@@ -1,6 +1,8 @@
 # Surf Forecaster
 
-This was a self-directed project done through a busy semester. I had the Google Maps' API sorted and the general layout completed. When it came time to start calling the NOAA's buoy's for data, I kept getting errors.
+This was a self-directed project done through a busy semester. The goal was to create a web app that would allow users to click on an interactive satellite map of the earth and have the app return general information about the waves in that area, averaged from the nearest 3 available buoy's data.
+
+I had the map sorted out through Google Maps' API, and the general layout completed through JS/HTML/CSS. When it came time to start calling the NOAA's buoy's for data, I kept getting errors.
 
 Turns out:
 
