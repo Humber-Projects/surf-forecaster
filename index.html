@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coast Guru</title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta description="Search the globe to find the perfect swell!">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="fontawesome-free-5.15.1/css/all.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/afd6aa68df.js" crossorigin="anonymous"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8iGbPfaluFoxIxrmZnH1oD1MgqO6poeQ&callback=initMap&libraries=places" async defer></script>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div id="user-location">
+  <p>Find my location</p>
+</div>
+
+<div id="search-error">
+  <p id="search-error-text"></p>
+</div>
+
+<div class="box">
+  <form name="search" onsubmit="return false">
+      <input type="text" class="input" name="txt" onmouseout="document.search.txt.value = ''" id="search-field" autocomplete="off">
+  </form>
+  <i class="fas fa-search"></i>
+</div>
+
+</body>
+<script src="main.js"></script>
+<script src="generatesurf.js"></script>
+</html>
